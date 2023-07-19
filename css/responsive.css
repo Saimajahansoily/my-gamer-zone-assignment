@@ -12,4 +12,31 @@
     padding: auto
     ;
     }
+
+    /* goat section */
+
+    .goat-container{
+        flex-direction: column-reverse;
+        
+
+    
+    }
+    .goat-img-1{
+        width: 300px;
+        height: auto;
+    }
+.goat-description{
+    margin-top: 50px;
+}
+/* we are gamer section */
+
+.w-a-gamer-container{
+    flex-direction: column;
+}
+
+.w-a-gamer-description{
+    width: 70%;
+}
+.w-a-gamer-img-1{
+    width: 300px;
 }

@@ -8,7 +8,9 @@
     justify-content: space-around;
     background-color: rgb(234, 232, 229);
     padding: 30px 0px;
-    max-width: 1440px;
+    max-width: 100%;
+    
+    /* max-width: 1440px; */
 }
 .gamer{
     gap: 30px;
@@ -56,3 +58,49 @@
     background-color:
 }
 
+/* main section- goat container */
+
+.goat-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px auto;
+   
+    align-items: center;
+
+}
+.goat-description{
+   
+    text-align: center;
+}
+
+
+.goat-title{
+background-image: linear-gradient(to bottom,rgb(48, 15, 115),rgb(150, 94, 94));
+color: transparent;
+
+-webkit-background-clip: text;
+}
+
+
+
+}
+.goat-img{
+
+}
+.goat-img-1{
+    width: 500px;
+    height: auto;
+}
+/* we are gamer section */
+
+.w-a-gamer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.w-a-gamer-description{
+    width: 30%;
+}
+.w-a-gamer-img-1{
+    width: 600px;
+}
