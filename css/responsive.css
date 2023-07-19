@@ -1,0 +1,15 @@
+@media screen and (max-width: 424px){
+    .gamer-content{
+        flex-direction: column;
+        margin-top: 10px;
+    
+    }
+    .nav-container{
+        flex-direction: column;
+        padding:30px
+    }
+    .gamer{
+    padding: auto
+    ;
+    }
+}
