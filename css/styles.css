@@ -297,12 +297,14 @@ padding: ;
     border-radius:50px ;
     border-style: none;
     width: fit-content;
+    padding: 0px 10px;
     
 }
 .grid-items:hover{
     border: 2px solid rgb(14, 2, 2);
-    background-color: rgb(135, 135, 174);
+    background-color: rgb(212, 212, 224);
     cursor: pointer;
+    color: red;
 }
 .grid-p{
     width: 
@@ -365,7 +367,9 @@ padding: 100px;
     gap: 30px;
     padding: 30px;
 }
-
+.footer-icons i:hover{
+    cursor: pointer;
+}
 .footer-icons span{
     font-size: 40px;
     color: white;
