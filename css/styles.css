@@ -104,3 +104,152 @@ color: transparent;
 .w-a-gamer-img-1{
     width: 600px;
 }
+
+/* anywhere container */
+
+.anywhere-container{
+    display: flex;
+    justify-content:space-around;
+    margin: 100px 0px;
+    align-items: center;
+}
+
+.anywhere-description{
+   width: 300px; ;
+}
+.anywhere-img{
+    display: flex;
+}
+
+.anywhere-img-1{
+width: 300px; 
+}
+.anywhere-img-2{
+width: 150px; 
+height: 150px;
+position: relative;
+top: 175px;
+right: 100px;
+}
+
+/* careers section */
+
+/* .career-container{
+    background-color: rgb(187, 33, 84);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+.career-img{
+width: 50%;
+}
+
+.career-description{
+width: 50%;
+padding: ;
+
+}
+
+.career-img-1{
+    width: auto;
+} */
+
+
+
+.grid-items{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius:50px ;
+    border-style: none;
+    width: fit-content;
+    
+}
+.grid-items:hover{
+    border: 2px solid rgb(14, 2, 2);
+    background-color: rgb(135, 135, 174);
+    cursor: pointer;
+}
+.grid-p{
+    width: 
+}
+
+.grid-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    align-items: center;
+    align-content: center;
+    place-self: center;
+    gap: 60px;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 50px;
+
+    
+}
+/* footer */
+
+.footer-container{
+background-color: rgb(17, 17, 50);
+padding: 100px;
+}
+
+
+.footer-title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    padding: 20px;
+    color: antiquewhite;
+    font-size: 40px;
+        font-weight: bold;
+   
+}
+
+.footer-options{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer-options a{
+    text-decoration: none;
+    color: antiquewhite;
+    
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+}
+
+.footer-icons span{
+    font-size: 40px;
+    color: white;
+}
+
+.footer-description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+}
+.footer-description a{
+    text-decoration: none;
+    color: wheat;
+}
+.footer-p{
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+}

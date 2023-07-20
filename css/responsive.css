@@ -25,18 +25,124 @@
         width: 300px;
         height: auto;
     }
-.goat-description{
+ .goat-description{
     margin-top: 50px;
-}
-/* we are gamer section */
+ }
+ /* we are gamer section */
 
-.w-a-gamer-container{
+ .w-a-gamer-container{
     flex-direction: column;
-}
+ }
 
-.w-a-gamer-description{
+ .w-a-gamer-description{
     width: 70%;
-}
-.w-a-gamer-img-1{
+ }
+ .w-a-gamer-img-1{
     width: 300px;
-}
+ }
+
+ /* anywhere section */
+
+ .anywhere-container{
+    flex-direction: column-reverse;
+    align-items: center;
+ }
+
+ .anywhere-description{
+    width: 50%;
+    margin: 70px 0px;
+ }
+ .anywhere-img{
+    display: flex;
+    align-items: center;
+    margin: 0px auto;
+ }
+ .anywhere-img-1{
+    width: 200px ;
+    
+   
+ }
+  .anywhere-img-2{
+    width:100px ;
+    height: 100px;
+    position: relative;
+    top: 120px;
+    left:-60px;
+
+
+
+ }
+
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+ }
+
+ .grid-p{
+    font-size: 7px;
+ }
+
+ .grid-img{
+    width: 30px;
+ }
+
+ /* footer */
+
+ .footer-container{
+    background-color: rgb(17, 17, 50);
+    padding: 100px;
+    }
+    
+    
+    .footer-title{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        justify-content: center;
+        padding: 20px;
+        color: antiquewhite;
+        font-size: 20px;
+        font-weight: bold;
+       
+    }
+    
+    .footer-options{
+        display: grid;
+        grid-template-columns: repeat(3,auto);
+        
+    }
+    
+    .footer-options a{
+       font-size: 10px;
+    }
+    
+    .footer-icons{
+        display: grid;
+        grid-template-columns: repeat(3,auto);
+
+    }
+    
+    .footer-icons span{
+        font-size: 30px;
+        color: white;
+    }
+    
+    .footer-description{
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+    }
+    .footer-description a{
+        
+        font-size: 12px;
+    }
+    .footer-p{
+        width: 147px;
+        text-align: center;
+        padding-left: -30px;
+        font-size: 12px;
+    }
