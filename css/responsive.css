@@ -1,4 +1,4 @@
-@media screen and (max-width: 424px){
+@media screen and (max-width: 426px){
     .gamer-content{
         flex-direction: column;
         margin-top: 10px;
@@ -76,6 +76,7 @@
  .anywhere-description{
     width: 50%;
     margin: 70px 0px;
+    text-align: center;
  }
  .anywhere-img{
     display: flex;
@@ -174,4 +175,144 @@
         font-size: 12px;
         margin-top:20px ;
     }
+}
+
+@media screen and (min-width:426px)and (max-width: 768px){
+    
+    
+    .gamer{
+    padding: auto
+    ;
+    }
+
+    /* goat section */
+
+    .goat-img-1{
+        width: 250px;
+        height: auto;
+    }
+ .goat-description{
+    margin-top: 50px;
+ }
+ /* we are gamer section */
+
+ 
+ .w-a-h{
+    font-size: 25px;
+    font-weight: bold;
+}
+.w-a-gamer-p{
+    font-size: 10px;
+
+}
+ .w-a-gamer-description{
+    width: 50%;
+    text-align: right;
+ }
+ .w-a-gamer-img-1{
+    width: 300px;
+ }
+
+ /* funny section */
+ .funny-container{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 80px;
+    
+}
+
+.overly-container{
+    gap: 40px;
+}
+
+
+
+.funny-name{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+ /* anywhere section */
+
+
+ .anywhere-p{
+    font-size: 10px;
+ }
+
+ .anywhere-description{
+    width: 50%;
+    margin: 70px 0px;
+    text-align: left;
+ }
+ .anywhere-img{
+    display: flex;
+    align-items: center;
+    margin: 0px auto;
+ }
+ .anywhere-img-1{
+    width: 200px ;
+    
+   
+ }
+  .anywhere-img-2{
+    width:100px ;
+    height: 100px;
+    position: relative;
+    top: 90px;
+    left:-60px;
+ }
+
+
+
+.grid-container{
+    
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+ }
+
+ .grid-p{
+    font-size: 7px;
+ }
+
+ .grid-img{
+    width: 30px;
+ }
+
+ /* footer */
+
+ .footer-container{
+    background-color: rgb(17, 17, 50);
+    padding: 100px;
+    }
+    
+    
+    .footer-title{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        justify-content: center;
+        padding: 20px;
+        color: antiquewhite;
+        font-size: 20px;
+        font-weight: bold;
+       
+    }
+    
+    
+    .footer-options a{
+       font-size: 10px;
+    }
+    
+    
+    .footer-icons span{
+        font-size: 30px;
+        color: white;
+    }
+    
+    .footer-description a{
+        
+        font-size: 12px;
+    }
+    
 }
