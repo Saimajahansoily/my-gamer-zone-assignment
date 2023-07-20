@@ -2,6 +2,15 @@
     margin: 0px;
     padding: 0px;
 }
+
+.btn{
+    background-color:rgb(216, 114, 131) ;
+    border-radius: 30px;
+    padding: 10px;
+    border-style: none;
+    color: antiquewhite;
+    font-size: 10px;
+}
 .nav-container{
     display: flex;
     align-items: center;
@@ -35,15 +44,17 @@
     gap: 30px;
     background-color: rgb(216, 231, 226);
     border-radius: 7px;
-    padding: 0px 5px;
+    padding: 5px 5px;
     
 }
 .gamer-icon:hover {
     border: 2px solid rgb(176, 75, 68);
+    cursor: pointer;
   }
 
 .G-amer{
     color: rgb(113, 31, 45);
+    font-size: 40px;
 
 }
 
@@ -70,19 +81,44 @@
 }
 .goat-description{
    
-    text-align: center;
+    text-align: left;
 }
 
 
 .goat-title{
-background-image: linear-gradient(to bottom,rgb(48, 15, 115),rgb(150, 94, 94));
+background-image: linear-gradient(to bottom,rgb(238, 211, 90),rgb(66, 16, 213));
 color: transparent;
 
 -webkit-background-clip: text;
 }
 
+.sign-in{
+    padding: 10px 20px;
+    
+}
 
+.go-rogue{
+    background-color: skyblue;
+    padding: 10px 20px;
+    font-weight: bold;
+}
 
+.buttons{
+    display: flex;
+    gap: 25px;
+    padding: 20px 0px;
+}
+
+.goat-icon{
+    display: flex;
+    align-items: center;
+    padding: 8px ;
+    gap: 9px;
+    
+}
+
+.goat{
+    font-size: 50px;
 }
 .goat-img{
 
@@ -98,12 +134,102 @@ color: transparent;
     justify-content: space-around;
     align-items: center;
 }
+.w-a-h{
+    font-size: 40px;
+    font-weight: bold;
+}
 .w-a-gamer-description{
     width: 30%;
+    text-align: right;
+}
+.w-a-gamer-p{
+    font-size: 13px;
+    padding: 10px 0px;
+}
+.w-a-gamer-p-2{
+    font-size: 17px;
+    padding-top: 10px;
 }
 .w-a-gamer-img-1{
     width: 600px;
 }
+
+/* funny container */
+
+.funny-title{
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.funny-name{
+    padding: 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.funny-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:40px;
+    padding: 50px;
+}
+
+.overly-container{
+width: 250px;
+height: 300px;
+position: relative;
+cursor: pointer;
+
+}
+.overly-container:hover .overly{
+    opacity :1;
+    filter: contrast(2px);
+    
+}
+
+.funny-img-1{
+    width: 100%;
+    height: 100%;
+    display: block;
+    
+}
+
+.overly{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+    transition: opacity 0.5s;
+    top: 0;
+    left: 0;
+    border: 2px solid rgb(243, 14, 14);
+    border-radius: 10px;
+}
+
+
+.play-button{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid rgb(94, 94, 142);
+  background-color: white;
+  transform: translate(-50%, -50%);
+}
+
+  .watch-text{
+    position: absolute;
+   left :30px; 
+   color:rgb(216, 18, 18); 
+   font-size :20px; 
+   font-weight:bold;
+   bottom:60px; 
+  }
 
 /* anywhere container */
 
@@ -115,7 +241,14 @@ color: transparent;
 }
 
 .anywhere-description{
-   width: 300px; ;
+   width: 300px; 
+
+}
+
+.anywhere-title{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 10px;
 }
 .anywhere-img{
     display: flex;
@@ -187,6 +320,7 @@ padding: ;
     width: 70%;
     margin: auto;
     padding-bottom: 50px;
+    padding-top: 50px;
 
     
 }

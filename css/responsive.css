@@ -17,9 +17,7 @@
 
     .goat-container{
         flex-direction: column-reverse;
-        
-
-    
+        text-align: center;
     }
     .goat-img-1{
         width: 300px;
@@ -33,13 +31,40 @@
  .w-a-gamer-container{
     flex-direction: column;
  }
+ .w-a-h{
+    font-size: 25px;
+    font-weight: bold;
+}
+.w-a-gamer-p{
+    font-size: 10px;
 
+}
  .w-a-gamer-description{
     width: 70%;
+    text-align: center;
  }
  .w-a-gamer-img-1{
     width: 300px;
  }
+
+ /* funny section */
+ .funny-container{
+    flex-direction: column;
+    padding: 20px;
+    gap: 80px;
+    
+}
+
+.overly-container{
+    gap: 40px;
+}
+
+
+
+.funny-name{
+    font-size: 25px;
+    font-weight: bold;
+}
 
  /* anywhere section */
 
@@ -124,6 +149,7 @@
     .footer-icons{
         display: grid;
         grid-template-columns: repeat(3,auto);
+        word-wrap: normal;
 
     }
     
@@ -135,6 +161,7 @@
     .footer-description{
         display: grid;
         grid-template-columns: repeat(2,auto);
+        
     }
     .footer-description a{
         
@@ -143,6 +170,8 @@
     .footer-p{
         width: 147px;
         text-align: center;
-        padding-left: -30px;
+        padding-left: -20px;
         font-size: 12px;
+        margin-top:20px ;
     }
+}
