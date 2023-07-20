@@ -109,12 +109,17 @@
     gap: 20px;
  }
 
+ .grid-items{
+    
+    
+ }
+
  .grid-p{
     font-size: 7px;
  }
 
  .grid-img{
-    width: 30px;
+    width: 20px;
  }
 
  /* footer */
@@ -140,6 +145,7 @@
     .footer-options{
         display: grid;
         grid-template-columns: repeat(3,auto);
+        white-space: nowrap;
         
     }
     
@@ -150,7 +156,7 @@
     .footer-icons{
         display: grid;
         grid-template-columns: repeat(3,auto);
-        word-wrap: normal;
+        
 
     }
     
@@ -162,7 +168,7 @@
     .footer-description{
         display: grid;
         grid-template-columns: repeat(2,auto);
-        
+        white-space: nowrap;
     }
     .footer-description a{
         
